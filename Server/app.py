@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Fichier JSON pour stocker les coordonnées
-COORDINATES_FILE = 'coordinates.json'
+COORDINATES_FILE = 'data.json'
 
 # Route pour recevoir les coordonnées
 @app.route('/upload_coordinates', methods=['POST'])
