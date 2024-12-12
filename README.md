@@ -38,7 +38,7 @@ The server is running on private_ip:1337
 
 **SwiftUI**: For building the user interface.
 
-**CoreLocation**: For accessing and tracking GPS coordinates.
+**CoreLocation** ( Swift Lib ) : For accessing and tracking GPS coordinates.
 
 **Flask**: A lightweight Python web framework for handling and 
 processing incoming data on the server.
