@@ -27,7 +27,7 @@ The server is running on private_ip:1337
 
 ### Launch the App
 
-*Convert the swift app into .ipa through XCode and run it into an iPhone.*
+*Convert the swift app into .ipa through XCode and run it into an iPhone as dev-mode.*
 ## Tech Stack
 
 **Client:** Swift
