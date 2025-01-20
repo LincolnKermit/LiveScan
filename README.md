@@ -4,7 +4,7 @@
 
 ⚠️ **This project is strictly for educational purposes only.** ⚠️
 
-
+⚠️ **Since the Raspberry Pi lacks a GPS module, we'll use our phone to transmit the location.** ⚠️
 
 
 ## Documentation
