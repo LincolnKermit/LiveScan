@@ -15,7 +15,24 @@
 
 ## Installation
 
+
+
+### Launch the listener
+
+**It should be launched before the server and on the same RPI.**
+
+```bash
+  git clone https://github.com/lincolnkermit/livescan
+  cd livescan
+  sudo bash Server/worker.sh
+```
+
+
+
 ### Launch the Server
+
+
+
 
 ```bash
   git clone https://github.com/lincolnkermit/livescan
@@ -23,11 +40,19 @@
   pip3 install flask
   python3 Server/app.py
 ```
+
+
 The server is running on private_ip:1337
 
-### Launch the App
 
-*Convert the swift app into .ipa through XCode and run it into an iPhone as dev-mode.*
+### Swift App
+
+*For the GPS Coordinates : Convert the swift app into .ipa through XCode and run it into an iPhone as dev-mode.*
+
+
+**Note : You can also send any POST Requests with longitude=x.xxxx, latitude=y.yyyyyyyy @ server:1337/upload_gps**
+
+
 ## Tech Stack
 
 **Client:** Swift
