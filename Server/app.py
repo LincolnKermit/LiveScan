@@ -6,14 +6,6 @@ from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
-
-def read_csv(file_path):
-    with open(file_path, 'r') as csvfile:
-        csv_reader = csv.reader(csvfile)
-        for row in csv_reader:
-            print(row[8], row[13], row[1], row[2], row[0])
-
-
 @app.route('/upload_gps', methods=['POST'])
 def upload_gps():
     data = request.get_json()
