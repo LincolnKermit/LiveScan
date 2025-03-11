@@ -9,4 +9,4 @@ fi
 
 airmon-ng start wlan0
 
-airodump-ng wlan0mon -w capture --output-format csv
+airodump-ng wlan0mon -w data --output-format csv
