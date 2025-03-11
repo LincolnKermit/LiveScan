@@ -1,7 +1,5 @@
-import csv
-import flask
-from flask import Flask, request, jsonify, render_template
-import folium
+import csv, flask, folium, os
+from flask import Flask, request, jsonify, render_template, redirect
 from datetime import datetime, timedelta
 
 app = Flask(__name__)
@@ -21,6 +19,16 @@ def upload_gps():
     print(f"Longitude: {longitude}, Latitude: {latitude}, Timestamp: {timestamp}")
     return {"message": "GPS data received", "longitude": longitude, "latitude": latitude}, 200
 
+
+@app.route('/map')
+def map():
+    os.system("python3 mapper.py")
+    return render_template('map.html')
+
+
+@app.route('/')
+def index():
+    return redirect('/map')
 
 
 if __name__ == '__main__':
