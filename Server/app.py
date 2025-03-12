@@ -20,9 +20,15 @@ def upload_gps():
     return {"message": "GPS data received", "longitude": longitude, "latitude": latitude}, 200
 
 
+
+
 @app.route('/map')
 def map():
-    os.system("python3 mapper.py")
+    try:
+        os.system("python3 link.py")
+        os.system("python3 mapper.py")
+    except Exception as e:
+        print(f"Error for /map : {e}")
     return render_template('map.html')
 
 
