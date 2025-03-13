@@ -9,7 +9,8 @@
 
 ## Documentation
 
-![image](https://github.com/user-attachments/assets/57354cfe-70cf-441a-8af9-155ef635ea93)
+![image](https://github.com/user-attachments/assets/f87f2881-390a-4199-bf66-4daa1f0f3ef4)
+
 
 
 
