@@ -47,7 +47,7 @@ The server is running on private_ip:1337
 
 
 ### Swift App
-
+**REQUIRE Macos**
 *For the GPS Coordinates : Convert the swift app into .ipa through XCode and run it into an iPhone as dev-mode.*
 
 
