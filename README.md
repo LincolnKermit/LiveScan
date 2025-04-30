@@ -51,7 +51,7 @@ The server is running on private_ip:1337
 *For the GPS Coordinates : Convert the swift app into .ipa through XCode and run it into an iPhone as dev-mode.*
 
 
-**Note : You can also send any POST Requests with longitude=x.xxxx, latitude=y.yyyyyyyy @ server:1337/upload_gps**
+**Note : You can also send any POST Requests with longitude=x.xxxx, latitude=y.yyyyyyyy at server_ip:1337/upload_gps**
 
 
 ## Tech Stack
